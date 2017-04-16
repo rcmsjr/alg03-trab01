@@ -1,5 +1,3 @@
-import java.io.OptionalDataException;
-
 /**
  * Estrutura de ilhas
  */
@@ -30,11 +28,11 @@ public class Islands {
                     continue;
                 }
 
-                if (col >= 1 && matrix[line][col-1] == PIVOT) {
+                if (col > 0 && matrix[line][col-1] == PIVOT) {
                     continue;
                 }
 
-                if (line >= 1 && matrix[line-1][col] == PIVOT) {
+                if (line > 0 && matrix[line-1][col] == PIVOT) {
                     continue;
                 }
 
