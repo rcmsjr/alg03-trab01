@@ -5,7 +5,7 @@ import java.io.*;
 /**
  * Leitor de arquivos textos que possuam matriz
  */
-class MatrixFileReader {
+public class MatrixFileReader {
     private final String filePath;
 
     public MatrixFileReader(String filePath) {

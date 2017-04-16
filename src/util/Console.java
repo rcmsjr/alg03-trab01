@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Console util methods
  *
  */
-class Console {
+public class Console {
 
     private static final Scanner keyboard = new Scanner(System.in);
 
@@ -44,7 +44,7 @@ class Console {
      * Imprime uma string em uma nova linha
      * @param s
      */
-    private static void printLn(String s)
+    public static void printLn(String s)
     {
         System.out.println(s);
     }
