@@ -48,4 +48,10 @@ public class Console {
     {
         System.out.println(s);
     }
+
+    /**
+     * Impriime um inteiro em uma nova linha
+     * @param i
+     */
+    public static void printLn(int i) { System.out.print(i); }
 }

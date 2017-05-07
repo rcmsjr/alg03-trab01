@@ -10,7 +10,7 @@ public class Main {
 
         islands = new Islands(matrix);
 
-        Console.printLn("Total de ilhas: " + islands.count());
+        Console.printLn(islands.count());
     }
 
     /**
