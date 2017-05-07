@@ -36,6 +36,10 @@ public class Islands {
                     continue;
                 }
 
+                if (line > 0 && col+1 < colLen && matrix[line-1][col+1] == PIVOT && matrix[line][col+1] == PIVOT) {
+                    continue;
+                }
+
                 counter++;
             }
         }
